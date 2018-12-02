@@ -9,7 +9,6 @@
 main <- function(){}
 
 library(CTRMPackage)
-
 #read report_date, accounts, entities and segments dimensions from system variable (sysdata.rda)
 As_of_Date <- get_report_date()
 Accounts <- dim_accounts
