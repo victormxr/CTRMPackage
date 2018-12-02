@@ -6,7 +6,7 @@
 #' @param NULL
 #' @return NULL
 #' @export
-main <- function(){}
+main <- function(){
 
 library(CTRMPackage)
 #read report_date, accounts, entities and segments dimensions from system variable (sysdata.rda)
@@ -42,4 +42,5 @@ remove(n)
 remove(ds)
 remove(df)
 
+}
 #END
